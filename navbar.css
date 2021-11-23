@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-font-style {
+    color: #0a0c8a !important;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.banner-para-style {
+    font-family: "Bree-Serif";
+}
+
+.banner-heading-style {
+    font-size: 20px;
+}
+
+.banner-heading-style-2 {
+    font-size: 25px;
+    font-family: Monospace;
+}
+
+.banner-card {
+    background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-text-card {
+    border-style: solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    border-color: white;
+    margin-right: 40vw;
+    padding: 24px;
+    margin-left: 24px;
+}
+
+.banner-text-card-2 {
+    border-style: solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    border-color: white;
+    margin-left: 40vw;
+    margin-top: 40px;
+    padding: 24px;
+    margin-right: 24px;
+}
+
+.banner-text-card-heading {
+    color: white;
+}
+
+.banner-text-card-para {
+    color: white;
+}
+
+.Aim-and-theory-card {
+    background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/05/background_02.png");
+    color: #dee0e3;
+    background-size: cover;
+    background-color: #0b1833;
+    font-family: "Bree-Serif";
+}
+
+.Aim-and-theory-card-main-heading {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.Aim-and-theory-card-heading {
+    font-size: 34px;
+}
+
+.Aim-and-theory-card-para {
+    font-size: 24px;
+}
+
+.videos {
+    background-image: linear-gradient(#0c1033, #0b1833);
+    color: white;
+}
+
+.navbar-logo {
+    height: 80px;
+}
+
+.navbar-logo-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Contact-us-section {
+    text-align: center;
+    background-color: #07091c;
+    color: white;
+}
+
+.Contact-us-icon {
+    font-size: 34px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 20px;
+    width: 74px;
+    background-color: #c2d2ff;
+}
+
+.nitw-logo {
+    height: 100px;
+    background-color: white;
+}
+
+.Contact-us-bottom-section-para {
+    font-weight: bold;
+}
+
+.Contact-us-icon-para {
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.hline-style {
+    background-color: skyblue;
+    width: 80px;
+    height: 2px;
+}
