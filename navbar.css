@@ -12,17 +12,22 @@
 }
 
 .banner-heading-style {
-    font-size: 20px;
+    font-size: 36px;
+    font-family: Monospace;
 }
 
 .banner-heading-style-2 {
     font-size: 25px;
-    font-family: Monospace;
 }
 
 .banner-card {
     background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
+    background-size: cover;
     height: 100vh;
+}
+
+.banner-card-quiz {
+    background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
     background-size: cover;
 }
 
@@ -107,6 +112,10 @@
     background-color: #c2d2ff;
 }
 
+.nitw-logo {
+    height: 100px;
+    background-color: white;
+}
 
 .Contact-us-bottom-section-para {
     font-weight: bold;
@@ -115,6 +124,16 @@
 .Contact-us-icon-para {
     padding-left: 20px;
     font-weight: 500;
+}
+
+.Quiz-style {
+    padding: 40px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Quiz-align {
+    text-align: center;
 }
 
 .hline-style {
