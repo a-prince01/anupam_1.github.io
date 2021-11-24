@@ -2,7 +2,7 @@ body{
     background: url(https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg);
 }
 .contact-form{
-    background: #fff;
+    background: transparent;
     margin-top: 10%;
     margin-bottom: 5%;
     width: 70%;
@@ -30,6 +30,9 @@ body{
     margin-top: -10%;
     text-align: center;
     color: #0062cc;
+}
+h5{
+    color:white;
 }
 .contact-form .btnContact {
     width: 50%;
