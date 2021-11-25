@@ -14,9 +14,9 @@ body{
     text-align: center;
 }
 .contact-image img{
-    border-radius: 6rem;
-    width: 11%;
-    margin-top: -3%;
+    
+    width: 80%;
+    margin-top: 3%;
     
 }
 .contact-form form{
