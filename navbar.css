@@ -139,7 +139,6 @@
 }
 
 .hline-style {
-    background-color: skyblue;
-    width: 80px;
-    height: 2px;
+    background-color: yellow;
+    width: 40vw;
 }
