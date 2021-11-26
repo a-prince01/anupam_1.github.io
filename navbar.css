@@ -12,7 +12,7 @@
 }
 
 .banner-heading-style {
-    font-size: 36px;
+    font-size: 27px;
     font-family: Monospace;
 }
 
@@ -23,7 +23,7 @@
 .banner-card {
     background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 140vh;
 }
 
 .banner-card-quiz {
@@ -47,7 +47,7 @@
     padding-left: 15px;
     border-color: white;
     margin-left: 40vw;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 24px;
     margin-right: 24px;
 }
