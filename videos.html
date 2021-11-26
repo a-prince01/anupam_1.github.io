@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="navbar.css">
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand d-flex flex-row" href="#">
-          <img src="logo.png" />
-      </a>
+        <a class="navbar-brand d-flex flex-row" href="#">
+            <img src="logo.png" />
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,56 +33,46 @@
         </div>
     </nav>
     <div class="videos pt-5" id="videos">
-          <div class="container">
-              <div class="row">
-                  <h1 class="mt-5 pt-5 p-3 pb-4">Video References:</h1>
-              <div class="col-12">
-                   <p align="center">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6KdSoX2-moU?rel=0" height="450" width="700" frameborder="0" marginheight="20" marginwidth="20"></iframe>
-                    </p>
-                  </div>
-                  <div class="col-12">
-                          <p align="center">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sYita4vTiN8?rel=0" height="450" width="700" frameborder="0" marginheight="20" marginwidth="20"></iframe>
-                        </p>
-                      </div>
-                  <div class="col-12">
-                        <p align="center">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XCPzeBp3S3g?rel=0" height="450" width="700" frameborder="0" marginheight="20" marginwidth="20"></iframe>
-                        </p>
-                  </div>
-                <h1 class="mt-5 pt-5 p-3 pb-4">Reference Websites:</h1>
-                  <h1 class="banner-text-card-heading">
-                      <span class="banner-heading-style"></span>
-                      <br>
-                      <span class="banner-heading-style-2">
-                        <ul class="Aim-and-theory-card-para">
-               <a href="https://www.emsdiasum.com/microscopy/products/materials/embedding.aspx#:~:text=Cold%20mounting%20or%20embedding%20is,this%20process%20gives%2Doff%20heat">
-                   <li>Cold and Hot Mounting Media, Molds, and Pressure Chamber
-               </li>
-             </a>
-
-             <a href="https://www.ebsd.com/hints-and-tips/ebsd-sample-preparation/sample-mounting">
-                 <li>Sample Mounting
-             </li>
-           </a>
-
-           <a href="https://www.buehler.com/consumables-for-material-preparation-testing-and-analysis.php">
-               <li>Consumables for material preparation testing and analysis
-           </li>
-         </a>
-           <a href="pmml_mounting_notes.pdf">
-               <li>Notes of the Experiment
-               </li>
-         </a>
-                      </span>
-                  </h1>
-
-              </div>
-          </div>
-      </div>
-      <input type="button" name="b1" value="previous" onclick="location.href='theory.html'">
-      <input type="button" name="b2" value="next" onclick="location.href='quiz.html'">
-
+        <div class="container">
+            <div class="row">
+                <h1 class="mt-5 pt-5 p-3 pb-4">Video References:</h1>
+                <div class="col-12 p-2 p-sm-3 p-md-5 shadow">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6KdSoX2-moU?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-12 p-2 p-sm-3 p-md-5 shadow">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sYita4vTiN8?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-12 p-2 p-sm-3 p-md-5 shadow">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XCPzeBp3S3g?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <h1 class="pt-5">Reference Websites:</h1>
+                <ul class="Aim-and-theory-card-para">
+                    <a href="https://www.emsdiasum.com/microscopy/products/materials/embedding.aspx#:~:text=Cold%20mounting%20or%20embedding%20is,this%20process%20gives%2Doff%20heat">
+                        <li>Cold and Hot Mounting Media, Molds, and Pressure Chamber</li>
+                    </a>
+                    <a href="https://www.ebsd.com/hints-and-tips/ebsd-sample-preparation/sample-mounting">
+                        <li>Sample Mounting</li>
+                    </a>
+                    <a href="https://www.buehler.com/consumables-for-material-preparation-testing-and-analysis.php">
+                        <li>Consumables for material preparation testing and analysis</li>
+                    </a>
+                    <a href="pmml_mounting_notes.pdf">
+                        <li>Notes of the Experiment</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="button-align m-3">
+        <input class="btn btn-warning" type="button" name="b1" value="previous" onclick="location.href='theory.html'">
+        <input class="btn btn-primary" type="button" name="b2" value="next" onclick="location.href='quiz.html'">
+    </div>
 </body>
+
 </html>
