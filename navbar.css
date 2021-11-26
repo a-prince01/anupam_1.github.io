@@ -138,7 +138,7 @@
 .Quiz-style {
     padding:40px;
     height: 80vh;
-    width: 45vw;
+    width: 100vw;
 }
 
 .Quiz-align {
@@ -156,5 +156,5 @@
 
 .button-align {
     text-align: right;
-  
+
 }
