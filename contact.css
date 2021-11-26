@@ -54,3 +54,7 @@ h5{
     border: none;
     cursor: pointer;
 }
+
+.button-align {
+    text-align: right;
+}
