@@ -26,9 +26,16 @@
     height: 140vh;
 }
 
+.banner-card-aim {
+    background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 .banner-card-quiz {
     background-image: url("https://novalab.bold-themes.com/lab-s/wp-content/uploads/sites/9/2020/03/background.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 .banner-text-card {
@@ -130,8 +137,8 @@
 
 .Quiz-style {
     padding:40px;
-    height: 78vh;
-    width: 100vw;
+    height: 80vh;
+    width: 45vw;
 }
 
 .Quiz-align {
@@ -149,4 +156,5 @@
 
 .button-align {
     text-align: right;
+  
 }
